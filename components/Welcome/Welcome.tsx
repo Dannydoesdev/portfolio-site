@@ -1,4 +1,4 @@
-import { Title, Text, Anchor } from '@mantine/core';
+import { Title, Text, Anchor, Space } from '@mantine/core';
 import useStyles from './Welcome.styles';
 
 export function Welcome() {
@@ -8,8 +8,9 @@ export function Welcome() {
     <>
       <Title className={classes.title} align="center" mt={100}>
         Welcome to{' '}
+        {/* <Space h='md' /> */}
         <Text inherit variant="gradient" component="span">
-          Mantine
+          My Portfolio
         </Text>
       </Title>
       <Text color="dimmed" align="center" size="lg" sx={{ maxWidth: 580 }} mx="auto" mt="xl">
