@@ -3,7 +3,7 @@ import { Card, Image, Text, Group, Badge, Button, ActionIcon } from '@mantine/co
 import useStyles from './Card.styles';
 import Link from 'next/link';
 
-export function ProjectCard({ image, title, description, type, badges, link }: BadgeCardProps) {
+export function ProjectCard({ image, title, description, type, githubLink, typeStyle, badges, link }: BadgeCardProps) {
   const { classes, theme } = useStyles();
 
   const features = badges.map((badge) => (
@@ -27,7 +27,7 @@ export function ProjectCard({ image, title, description, type, badges, link }: B
           <Text size="lg" weight={500}>
             {title}
           </Text>
-          <Badge size="sm">{type}</Badge>
+          <Badge className={typeStyle ? classes.badgeSolo : ''} size="sm">{type}</Badge>
         </Group>
         <Text size="sm" mt="xs">
           {description}
@@ -44,9 +44,14 @@ export function ProjectCard({ image, title, description, type, badges, link }: B
       </Card.Section>
 
       <Group mt="xs">
+      <Link href={githubLink} passHref>
+          <Button radius="md" className={classes.button} style={{ flex: 1 }}>
+            On Github
+          </Button>
+        </Link>
         <Link href={link} passHref>
           <Button radius="md" className={classes.button} style={{ flex: 1 }}>
-            Visit site
+            Live site
           </Button>
         </Link>
         {/* <ActionIcon variant="default" radius="md" size={36}>
@@ -61,7 +66,9 @@ interface BadgeCardProps {
   image: string;
   title: string;
   link: string;
+  githubLink: string;
   type: string;
+  typeStyle: boolean; // boolean to apply the 'team' style vs 'solo' style to label
   description: string;
   badges: {
     emoji: string;

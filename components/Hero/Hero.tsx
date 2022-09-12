@@ -13,13 +13,16 @@ export function HeroImage() {
               Welcome to{' '}
               <Text
                 component="span"
-                inherit
+                inherit              
                 variant="gradient"
-                gradient={{ from: '#6103a5fc 0%', to: '#dbbaf4 100%' }}
-              // linear-gradient(45deg, #6cd3e1 0%, #ddffb9 100%) // original
-              // linear-gradient(45deg, #ff0000fc 0%, #ffffff 100%) // red
-              // gradient={{ from: '#6cd3e1', to: '#ddffb9' }} // blue
-              // linear-gradient(45deg, #6103a5fc 0% 0%, #dbbaf4 100% 100%) // purple
+                gradient={{ from: '#6b02b7 0%', to: '#8700edba 100%' }}
+
+                // gradient={{ from: '#36005dfc 0%', to: '#8700edba 100%' }}
+                // gradient={{ from: '#6103a5fc 0%', to: '#dbbaf4 100%' }} // gradient
+                // linear-gradient(45deg, #6cd3e1 0%, #ddffb9 100%) // original
+                // linear-gradient(45deg, #ff0000fc 0%, #ffffff 100%) // red
+                // gradient={{ from: '#6cd3e1', to: '#ddffb9' }} // blue
+                // linear-gradient(45deg, #6103a5fc 0% 0%, #dbbaf4 100% 100%) // purple
               >
                 Daniel McGee's
               </Text>{' '}
@@ -37,7 +40,6 @@ export function HeroImage() {
                 // gradient={{ from: 'pink', to: 'yellow' }} // original
                 // gradient={{ from: '#6103a5fc 0%', to: '#dbbaf4 100%' }} // copy from above
                 gradient={{ from: '#36005dfc 0%', to: '#8700edba 100%' }}
-                // linear-gradient(45deg, #36005dfc 0% 0%, #8700edba 100% 100%)
                 size="xl"
                 className={classes.control}
                 mt={40}

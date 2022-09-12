@@ -16,8 +16,8 @@ const ProjectGrid = () => {
           { maxWidth: 755, cols: 2, spacing: 'sm' },
           { maxWidth: 600, cols: 1, spacing: 'sm' },
         ]}>
-          {cards.map((card) => {
-            return <ProjectCard {...card} />
+          {cards.map((card, index) => {
+            return <ProjectCard key={index} {...card} />
           })}
         </SimpleGrid>
       </Group>
