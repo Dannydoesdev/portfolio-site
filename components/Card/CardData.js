@@ -5,7 +5,7 @@ export const cards = [{
   "githubLink": "https://github.com/Dannydoesdev/GitConnect",
   "type": "Team Project",
   "typeStyle": false,
-  "description": "GitConnect is the portfolio hub for developers - connect with GitHub, showcase your projects, share with recruiters, and be inspired by other developers! I'm really proud of how the site turned out, the 'loop' works really well and it's easy to signup + integrate with your Github. Try it out!",
+  "description": "GitConnect is the portfolio hub for developers - connect with GitHub, showcase your projects, share with recruiters, and be inspired by other developers. A team project with 2 other developers - utilising Github API to easily import projects. This is the original & (currently) most feature-complete version of the GitConnect platform, I really like this concept and have been rebuilding & improving this project solo in Next.JS & React.",
   "badges": [
     {
       "emoji": "🧱",
@@ -22,6 +22,36 @@ export const cards = [{
     {
       "emoji": "🥾",
       "label": "Bootstrap"
+    },
+    {
+      "emoji": "👾",
+      "label": "Github API"
+    }
+  ]
+},{
+  "image": "/img/cards/gitconnect-invert.png",
+  "title": "GitConnect (V2)",
+  "link": "https://git-connect-v2.vercel.app/",
+  "githubLink": "https://github.com/Dannydoesdev/GitConnect-v2",
+  "type": "Solo Project",
+  "typeStyle": true,
+  "description": "This is an ongoing solo rebuild & refactor of a team project (v1) to modernise the stack. GitConnect is a portfolio creation, sharing, and discovery platform for developers. Think Dribbble or Behance for Engineers. Using integration with GitHub API, includes a simple and seamless portfolio creation experience. Firebase used for OAuth, storage & NoSQL database // Next.JS + React used for backend management & frontend components",
+  "badges": [
+    {
+      "emoji": "😱",
+      "label": "React"
+    },
+    {
+      "emoji": "⏭️",
+      "label": "Next.JS"
+    },
+    {
+      "emoji": "🔥",
+      "label": "Firebase"
+    },
+    {
+      "emoji": "🙅",
+      "label": "NoSQL"
     },
     {
       "emoji": "👾",

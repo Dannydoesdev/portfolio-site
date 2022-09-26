@@ -12,8 +12,8 @@ const ProjectGrid = () => {
       <Space h='xl' />
       <Group mx="md">
         <SimpleGrid cols={2} spacing="xl" breakpoints={[
-          { maxWidth: 980, cols: 2, spacing: 'md' },
-          { maxWidth: 755, cols: 2, spacing: 'sm' },
+          { maxWidth: 980, cols: 1, spacing: 'md' },
+          { maxWidth: 755, cols: 1, spacing: 'sm' },
           { maxWidth: 600, cols: 1, spacing: 'sm' },
         ]}>
           {cards.map((card, index) => {
