@@ -1,0 +1,45 @@
+{
+  "title": "Features with image icons",
+  "category": "features",
+  "author": "rtivital",
+  "responsive": true,
+  "withColor": true,
+  "dependencies": [
+    "/core/theme-icon/",
+    "/core/title/",
+    "/core/text/",
+    "/core/container/",
+    "/core/simple-grid/",
+    "/core/image/",
+    "https://www.flaticon.com/"
+  ],
+  "props": {
+    "supTitle": "Danny's skillset",
+    "description": "Studying and honing his skills across the spectrum of technical affluency and product development - he's worked as a Product Manager, a UX Designer as well as a system administrator.  He also rarely speaks in third person (promise).",
+    "data": [
+      {
+        "image": "auditors",
+        "title": "Designer",
+        "description": "Studying a 400 hour hands-on UX immersive course, I learnt the design process & provided UX consulting for a NfP. I learnt how to research, and analyse insights to inform prototypes - from wireframes to high fidelity designs."
+      },
+      {
+        "image": "coder",
+        "title": "Developer",
+        "description": "After another 400 hours of learning and applying coding skills, across both front and back-end, I've learned how to apply my other skills and actually build products. It's in development that I've found my real passion."
+      },
+      {
+        "image": "accountants",
+        "title": "Deliverer",
+        "description": "Three years working as a Product Manager, building a new team from the ground up & delivering an Android app. I've learned how to work in a high-performing Product team and deliver great products."
+      },
+      {
+        "image": "others",
+        "title": "Debugger",
+        "description": "Ten years working in Sysadmin & IT Consulting gave me a deep knowledge of technology and sharp problem solving skills. These have helped me quickly adopt development practices with a focus on high-quality code."
+      }
+    ]
+  },
+  "canvas": {
+    "center": false
+  }
+}
