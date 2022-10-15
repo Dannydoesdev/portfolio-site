@@ -1,19 +1,19 @@
 import { Switch, Group, useMantineColorScheme, useMantineTheme } from '@mantine/core';
 import { IconSun, IconMoonStars } from '@tabler/icons';
-import { createStyles, Selectors } from '@mantine/core';
+// import { createStyles, Selectors } from '@mantine/core';
 
 export function SwitchToggle() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
   const theme = useMantineTheme();
 
-  const useStyles = createStyles(() => ({
-    onLabel: {},
-    offLabel: {},
-    // footer: {},
-  }));
+//   const useStyles = createStyles(() => ({
+//     onLabel: {},
+//     offLabel: {},
+//     // footer: {},
+//   }));
 
-type ComponentStylesNames = Selectors<typeof useStyles>;
-// -> 'body' | 'header' | 'footer'
+// type ComponentStylesNames = Selectors<typeof useStyles>;
+// // -> 'body' | 'header' | 'footer'
 
   return (
     <Group position="center" my={30}>
