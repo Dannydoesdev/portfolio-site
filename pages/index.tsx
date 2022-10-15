@@ -16,8 +16,8 @@ export default function HomePage() {
     <>
       <HeroImage />
 
-      <ColorSchemeToggle />
-      {/* <SwitchToggle /> */}
+      {/* <ColorSchemeToggle /> */}
+      <SwitchToggle />
       <Space h='xl' />
       <AboutMe {...props} />
       <Space h='xl' />

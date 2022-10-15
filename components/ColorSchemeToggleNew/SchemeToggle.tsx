@@ -18,11 +18,12 @@ export function SwitchToggle() {
   return (
     <Group position="center" my={30}>
       <Switch
+        color={'grape.9'}
         checked={colorScheme === 'dark'}
         onChange={() => toggleColorScheme()}
         size="lg"
-        // onLabel={<IconSun color={theme.white} size={20} stroke={1.5} />}
-        // offLabel={<IconMoonStars color={theme.colors.gray[6]} size={20} stroke={1.5} />}
+        onLabel={<IconSun color={theme.white} size={20} stroke={1.5} />}
+        offLabel={<IconMoonStars color={theme.colors.grape[9]} size={20} stroke={1.5} />}
       />
     </Group>
   );
