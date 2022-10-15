@@ -6,13 +6,18 @@ import { ProjectCard } from '../components/ProjectCard/Card';
 // import { props } from '../components/Card/CardData';
 import ProjectGrid from '../components/ProjectGrid/Grid';
 import { AboutMe } from '../components/AboutMe/AboutMe';
-import { props } from '../components/AboutMe/attributes.json'
+import attributes from '../components/AboutMe/attributes.json'
+import { SwitchToggle } from '../components/ColorSchemeToggleNew/SchemeToggle';
 
 export default function HomePage() {
+  const { props } = attributes
+  
   return (
     <>
       <HeroImage />
+
       <ColorSchemeToggle />
+      <SwitchToggle />
       <Space h='xl' />
       <AboutMe {...props} />
       <Space h='xl' />
