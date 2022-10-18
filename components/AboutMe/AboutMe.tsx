@@ -19,7 +19,7 @@ export function AboutMe({ supTitle, description, data }: FeaturesImagesProps) {
 
   const items = data.map((item) => (
     <div className={classes.item} key={item.image}>
-      <ThemeIcon variant="light" className={classes.itemIcon} size={60} radius="md">
+      <ThemeIcon variant="light" className={classes.itemIcon} size={95} radius="lg">
         <Image src={IMAGES[item.image]} />
       </ThemeIcon>
 

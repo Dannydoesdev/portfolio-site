@@ -1,5 +1,9 @@
 import { createStyles } from '@mantine/core';
 
+// border-radius: 180px;
+// background-color: rgb(46 0 121 / 66%);
+// #2e0079a8
+
 export default createStyles((theme) => ({
   wrapper: {
     paddingTop: 80,
@@ -13,6 +17,14 @@ export default createStyles((theme) => ({
   itemIcon: {
     padding: theme.spacing.xs,
     marginRight: theme.spacing.md,
+    // backgroundColor: theme.colorScheme === 'dark' ? '#2d1259b0' : '#2b007969',
+    // #2d1259b0
+    // 2e0079a8
+    // backgroundColor: '#2e0079a8',
+    // backgroundColor: 'theme.colors.grape[9]',
+    // backgroundColor: theme.colors.grape[9],
+    // backgroundColor={theme.colors.grape[9]}
+    // borderRadius: '120px',
   },
 
   itemTitle: {
@@ -42,7 +54,6 @@ export default createStyles((theme) => ({
   highlight: {
     backgroundColor: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).
       background,
-      // theme.primaryColor
     padding: 5,
     paddingTop: 0,
     borderRadius: theme.radius.sm,
