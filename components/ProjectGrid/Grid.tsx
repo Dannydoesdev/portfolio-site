@@ -10,7 +10,7 @@ const ProjectGrid = () => {
   return (
     <>
       <Space h={50} />
-      <Title size={50} className={classes.title} align='center'><span className={classes.highlight}> Projects </span> </Title>
+      <Title size={42} className={classes.title} align='center'><span className={classes.highlight}> Projects </span> </Title>
       {/* <Space h={50} /> */}
       {/* <TextHighlight /> */}
       <Space h={50} />

@@ -5,6 +5,7 @@ import { getCookie, setCookie } from 'cookies-next';
 import Head from 'next/head';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
 import { NotificationsProvider } from '@mantine/notifications';
+import { CustomFonts } from '../components/CustomFonts/CustomFonts';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
@@ -30,12 +31,15 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
         <MantineProvider
           theme={{
+            // fontFamily: 'Montserrat, Futura, sans-serif',
+            // fontFamilyMonospace: 'Monaco, Courier, monospace',
+            // headings: { fontFamily: 'Futura, sans-serif' },
             colorScheme,
             primaryColor: 'violet',
           }}
           withGlobalStyles
           withNormalizeCSS>
-          
+          <CustomFonts />
           <NotificationsProvider>
             <Component {...pageProps} />
           </NotificationsProvider>
