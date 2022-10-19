@@ -15,7 +15,8 @@
   ],
   "props": {
     "supTitle": "Danny's skillset",
-    "description": "Studying and honing his skills across the spectrum of technical affluency and product development - he's worked as a Product Manager, a UX Designer as well as a system administrator.  He also rarely speaks in third person (promise).",
+    "description": "Studying and honing his skills across the spectrum of technical affluency and product development - his transferable experience spans a diverse range of stages and cultures;",
+    "additional": "He also rarely speaks in third person (promise).",
     "data": [
       {
         "image": "designer",
@@ -43,3 +44,4 @@
     "center": false
   }
 }
+

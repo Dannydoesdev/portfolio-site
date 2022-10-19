@@ -18,7 +18,7 @@ export default function HomePage() {
 
       {/* <ColorSchemeToggle /> */}
       <SwitchToggle />
-      <Space h='xl' />
+      <Space h='sm' />
       <AboutMe {...props} />
       <Space h='xl' />
       <ProjectGrid />

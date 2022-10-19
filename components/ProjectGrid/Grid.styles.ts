@@ -14,7 +14,14 @@ export default createStyles((theme) => ({
     // fontStyle: 'italic',
     padding: 40,
     // textShadow: 'purple -5px 4px 5px',
-    boxShadow: theme.colorScheme === 'dark' ? '-12px 8px 13px 5px #400d5f' : '-18px 15px 14px 1px #8f55ff9e',
+    boxShadow: theme.colorScheme === 'dark' ? '-16px 15px 10px 0px #4b0b69ed' : '-12px 11px 5px 1px #954ff759',
+
+    // test dark
+    // '-16px 15px 10px 0px #4b0b69ed'
+    // '-12px 8px 13px 5px #400d5f'
+    
+    // old
+    //'-18px 15px 14px 1px #8f55ff9e',
     // -8px 7px 9px 1px #5300f363
     // '-12px 8px 13px 5px purple',
     // fontWeight: 600,

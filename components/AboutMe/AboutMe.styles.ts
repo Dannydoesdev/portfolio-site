@@ -43,7 +43,7 @@ export default createStyles((theme) => ({
   title: {
     lineHeight: 1,
     textAlign: 'center',
-    marginTop: theme.spacing.xl,
+    marginTop: theme.spacing.lg,
   },
 
   description: {

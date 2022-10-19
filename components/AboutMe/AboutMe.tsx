@@ -1,4 +1,4 @@
-import { Image, Text, Container, ThemeIcon, Title, SimpleGrid } from '@mantine/core';
+import { Image, Text, Container, ThemeIcon, Title, SimpleGrid, Space } from '@mantine/core';
 import IMAGES from './images';
 import useStyles from './AboutMe.styles';
 
@@ -40,9 +40,15 @@ export function AboutMe({ supTitle, description, data }: FeaturesImagesProps) {
         Danny is not <span className={classes.highlight}>just</span> a dev
       </Title>
 
-      <Container size={850} p={0} mb={50}>
+      <Container size={900} p={0} mb={30}>
         <Text color="dimmed" className={classes.description}>
-          {description}
+          {/* {description} */}
+          <Space h='xs' />
+          An IT Consultant in the Berlin Startup scene, Network Manager in the public service, a UX Designer in a not-for-profit, and Product Manager in a disability sector scale-up;
+          <Space h='xs' />
+          Studying and honing his skills across the spectrum of technical affluency and product development - his transferable experience spans a diverse range of stages and cultures.
+          <Space h='xs' />
+          ...He also rarely speaks in third person (promise).
         </Text>
       </Container>
 
@@ -57,3 +63,7 @@ export function AboutMe({ supTitle, description, data }: FeaturesImagesProps) {
     </Container>
   );
 }
+
+
+// old text
+//  he's worked as a Product Manager, a UX Designer as well as a system administrator.  He also rarely speaks in third person (promise).

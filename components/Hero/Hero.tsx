@@ -30,8 +30,11 @@ export function HeroImage() {
             </Title>
 
             <Text className={classes.description} mt={30}>
-              A versatile IT expert with more than a decade of experience in the industry, and a
-              tenacity for impact-driven initiatives, roles & organisations.
+              A versatile IT expert with more than a decade of experience across the product & tech industry, and a passion for impact-driven initiatives.
+              
+              {/* My experience spans a diverse range of stages and cultures, including IT consulting in the Berlin Startup scene, network management in the public service, UX Design in a not-for-profit, and product management in a disability sector scale-up. */}
+{/* 
+              I love solving complex problems that can improve people’s lives. I am seeking a role where cross-discipline skills are valued - and my engineering skills can be integrated with my design and delivery skills to make a real impact. */}
             </Text>
             <Link href="https://www.linkedin.com/in/danieltmcgee/" passHref>
               <Button
@@ -53,3 +56,20 @@ export function HeroImage() {
     </div>
   );
 }
+
+// new text
+
+// A versatile IT expert with more than a decade of experience across the product &
+// tech industry, and a passion for impact-driven initiatives.
+
+// My experience spans a diverse range of stages and cultures, including IT consulting
+// in the Berlin Startup scene, network management in the public service, UX Design in
+// a not-for-profit, and product management in a disability sector scale-up.
+
+// I love solving complex problems that can improve people’s lives. I am seeking a role
+// where cross-discipline skills are valued - and my engineering skills can be integrated
+// with my design and delivery skills to make a real impact.
+
+// old text
+
+// A versatile IT expert with more than a decade of experience in the industry, and a tenacity for impact-driven initiatives, roles & organisations.
