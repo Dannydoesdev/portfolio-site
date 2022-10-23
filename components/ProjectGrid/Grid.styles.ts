@@ -7,6 +7,15 @@ export default createStyles((theme) => ({
       color: theme.colorScheme === 'dark' ? theme.white : 'inherit',
   },
 
+  container: {
+    maxWidth: 1000,
+    margin: 'auto',
+
+    [theme.fn.smallerThan('md')]: {
+      maxWidth: '100%',
+    },
+  },
+
   highlight: {
     backgroundColor: theme.colorScheme === 'dark' ? theme.fn.variant({ variant: 'light', color: theme.primaryColor }).
       background : '#f2f0ff',

@@ -2,8 +2,10 @@ import { IconHeart } from '@tabler/icons';
 import { Card, Image, Text, Group, Badge, Button, ActionIcon } from '@mantine/core';
 import useStyles from './Card.styles';
 import Link from 'next/link';
+import { NextLink } from '@mantine/next';
 
-export function ProjectCard({ image, title, description, type, githubLink, typeStyle, badges, link }: BadgeCardProps) {
+
+export function ProjectCard({ image, title, description, type, githubLink, typeStyle, badges, internalLink, link }: BadgeCardProps) {
   const { classes, theme } = useStyles();
 
   const features = badges.map((badge) => (
@@ -17,11 +19,14 @@ export function ProjectCard({ image, title, description, type, githubLink, typeS
   ));
 
   return (
+    
     <Card withBorder radius="md" p="md" className={classes.card}>
-      <Card.Section>
-        <Image src={image} alt={title} height={180} />
-      </Card.Section>
-
+      <Link href={internalLink} passHref>
+        <Card.Section component='a'> 
+            <Image  src={image} alt={title} height={180} />
+        </Card.Section>
+      </Link>
+      
       <Card.Section className={classes.section} mt="md">
         <Group position="apart">
           <Text size="lg" weight={500}>
@@ -58,7 +63,7 @@ export function ProjectCard({ image, title, description, type, githubLink, typeS
           <IconHeart size={18} className={classes.like} stroke={1.5} />
         </ActionIcon> */}
       </Group>
-    </Card>
+      </Card>
   );
 }
 
@@ -67,6 +72,7 @@ interface BadgeCardProps {
   title: string;
   link: string;
   githubLink: string;
+  internalLink: string;
   type: string;
   typeStyle: boolean; // boolean to apply the 'team' style vs 'solo' style to label
   description: string;

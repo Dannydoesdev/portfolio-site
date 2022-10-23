@@ -14,8 +14,8 @@ const ProjectGrid = () => {
       {/* <Space h={50} /> */}
       {/* <TextHighlight /> */}
       <Space h={50} />
-      <Group p='xl' mx="md">
-        <SimpleGrid cols={1} spacing="xl" breakpoints={[
+      <Group mx="md">
+        <SimpleGrid cols={1} className={classes.container} spacing="xl" breakpoints={[
           { maxWidth: 980, cols: 1, spacing: 'md' },
           { maxWidth: 755, cols: 1, spacing: 'sm' },
           { maxWidth: 600, cols: 1, spacing: 'sm' },
