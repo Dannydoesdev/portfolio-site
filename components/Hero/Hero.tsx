@@ -36,7 +36,7 @@ export function HeroImage() {
 {/* 
               I love solving complex problems that can improve people’s lives. I am seeking a role where cross-discipline skills are valued - and my engineering skills can be integrated with my design and delivery skills to make a real impact. */}
             </Text>
-            <Link href="https://www.linkedin.com/in/danieltmcgee/" passHref>
+            <Link href="https://linktr.ee/danieltmcgee" passHref>
               <Button
                 component='a'
                 variant="gradient"
