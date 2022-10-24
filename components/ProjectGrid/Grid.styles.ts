@@ -17,8 +17,10 @@ export default createStyles((theme) => ({
   },
 
   highlight: {
-    backgroundColor: theme.colorScheme === 'dark' ? '#36005d' : '#d0bfff',
-    
+    backgroundColor: theme.colorScheme === 'dark' ? '#36005d' : '#eee9ff',
+
+    // light but too dark : #d0bfff
+
     // theme.fn.variant({ variant: 'light', color: theme.primaryColor }).
       // background : '#f2f0ff',
     // textDecorationLine: 'underline',
