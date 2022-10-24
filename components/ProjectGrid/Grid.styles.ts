@@ -17,14 +17,17 @@ export default createStyles((theme) => ({
   },
 
   highlight: {
-    backgroundColor: theme.colorScheme === 'dark' ? theme.fn.variant({ variant: 'light', color: theme.primaryColor }).
-      background : '#f2f0ff',
+    backgroundColor: theme.colorScheme === 'dark' ? '#36005d' : '#d0bfff',
+    
+    // theme.fn.variant({ variant: 'light', color: theme.primaryColor }).
+      // background : '#f2f0ff',
     // textDecorationLine: 'underline',
     // fontStyle: 'italic',
     padding: 40,
     // textShadow: 'purple -5px 4px 5px',
-    boxShadow: theme.colorScheme === 'dark' ? '-16px 15px 10px 0px #4b0b69ed' : '-12px 11px 5px 1px #954ff759',
-
+    
+    // boxShadow: theme.colorScheme === 'dark' ? '-16px 15px 10px 0px #4b0b69ed' : '-12px 11px 5px 1px #954ff759',
+    
     // test dark
     // '-16px 15px 10px 0px #4b0b69ed'
     // '-12px 8px 13px 5px #400d5f'

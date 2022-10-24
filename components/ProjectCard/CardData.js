@@ -94,7 +94,7 @@ export const cards = [{
   ]
   },
   {
-    "image": "/img/cards/simpdle.jpg",
+    "image": "/img/cards/simpdle2.png",
     "title": "Simpdle",
     "link": "https://dannydoesdev.github.io/wordle/",
     "githubLink": "https://github.com/Dannydoesdev/wordle",

@@ -54,6 +54,24 @@ export default createStyles((theme) => ({
     },
   },
 
+  name: {
+    lineHeight: 1.05,
+    fontSize: '150px',
+    backgroundImage: 'linear-gradient(45deg, #460376 0% 0%, #8700edf7 100% 100%)',
+    marginLeft: '-10px',
+
+    [theme.fn.smallerThan('md')]: {
+      
+      fontSize: '110px',
+      marginLeft: '-5px',
+
+      // lineHeight: 1.15,
+      // backgroundImage: 'linear-gradient(45deg, #36005dfc 0% 0%, #8700edba 100% 100%)',
+
+      // Try -5px margin-left && 110 font-size
+    },
+  },
+
   description: {
     color: theme.white,
     opacity: 0.75,
