@@ -8,6 +8,7 @@ import ProjectGrid from '../components/ProjectGrid/Grid';
 import { AboutMe } from '../components/AboutMe/AboutMe';
 import attributes from '../components/AboutMe/attributes.json'
 import { SwitchToggle } from '../components/ColorSchemeToggleNew/SchemeToggle';
+import { TechStackIcons } from '../components/StackGrid/StrackGridIcons';
 
 export default function HomePage() {
   const { props } = attributes
@@ -20,7 +21,10 @@ export default function HomePage() {
       <SwitchToggle />
       <Space h='sm' />
       <AboutMe {...props} />
-      <Space h='xl' />
+      <Space h={80} />
+      <TechStackIcons />
+      {/* <Space h='xl' /> */}
+      <Space h={100} />
       <ProjectGrid />
     </>
   );
