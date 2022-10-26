@@ -43,10 +43,10 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
           <CustomFonts />
           <NotificationsProvider>
             <Component {...pageProps} />
+            <Analytics />
           </NotificationsProvider>
         </MantineProvider>
-      </ColorSchemeProvider>
-      <Analytics />
+      </ColorSchemeProvider>   
     </>
   );
 }
