@@ -7,54 +7,16 @@ import { projects } from '../../components/HeroProject/ProjectListObj'
 
 export default function Project() {
   const router = useRouter()
-  // let name  = ''
   let { name } = router.query;
-  // console.log(router.query.name)
-  // name = name.toString();
-
-  let pname = projects[name as keyof typeof projects]
-
-  // let name = router.query.name as string;
-
-  // let nameStr = ()
-
-  // if (!name) {
-  //   name = ''
-  // }
-    //h ? router.query : '';
-
-  // console.log(typeof name)
-
-  // console.log(name)
-  // const pname:string = String(id);
-  // console.log(pname)
-  // const nameStr: string = JSON.stringify(name)
-  // console.log(JSON.stringify(name))
-  // const projectArr = { ...projects }
-  // console.log(projectArr)
-  // console.log(pname)
-  // console.log(projects[name])
-
-
-  // ignoring this error for now but need to resolve
-  // NOTE it will break on any unknown route name (eg any non-project names)
-  // Need to resolve potentially via SSR
-
 
   // looks wild - info here https://bobbyhadz.com/blog/typescript-no-index-signature-with-parameter-of-type-string#:~:text=The%20error%20%22No%20index%20signature,keys%20using%20keyof%20typeof%20obj%20.
   
+  // Select project based in projects object based on name of project page visited
   const project = projects[name as keyof typeof projects];
 
 
-
-
-  // console.log(project)
-
-  // const [projects, setProjects] = useState<any>(null)
-  // const [projectsArr, setProjectsArr] = useState<any>(null)
-
+  // Return the relevant project page from the object
   return (
-      // <HeroProjectDynamic {...projects} />
     <HeroProjectDynamic project={name as string} {...project} />
   )
 }

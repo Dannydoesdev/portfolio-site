@@ -50,12 +50,12 @@ export function ProjectCard({ image, title, description, type, githubLink, typeS
 
       <Group mt="xs">
       <Link href={githubLink} passHref>
-          <Button radius="md" className={classes.button} style={{ flex: 1 }}>
+          <Button radius="md" component='a' className={classes.button} style={{ flex: 1 }}>
             On Github
           </Button>
         </Link>
         <Link href={link} passHref>
-          <Button radius="md" className={classes.button} style={{ flex: 1 }}>
+          <Button radius="md" component='a' className={classes.button} style={{ flex: 1 }}>
             Live site
           </Button>
         </Link>
