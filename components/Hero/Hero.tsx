@@ -42,6 +42,7 @@ export function HeroImage() {
             <Link href="https://linktr.ee/danieltmcgee" passHref>
               <Button
                 component='a'
+                target='_blank'
                 variant="gradient"
                 // gradient={{ from: 'pink', to: 'yellow' }} // original
                 // gradient={{ from: '#6103a5fc 0%', to: '#dbbaf4 100%' }} // copy from above
