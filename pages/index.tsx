@@ -8,7 +8,7 @@ import ProjectGrid from '../components/ProjectGrid/Grid';
 import { AboutMe } from '../components/AboutMe/AboutMe';
 import attributes from '../components/AboutMe/attributes.json'
 import { SwitchToggle } from '../components/ColorSchemeToggleNew/SchemeToggle';
-import { TechStackIcons } from '../components/StackGrid/StrackGridIcons';
+import { TechStackIcons } from '../components/TechStackGrid/StrackGridIcons';
 
 export default function HomePage() {
   const { props } = attributes
