@@ -1,4 +1,36 @@
 export const projects = [{
+  "image": "/img/cards/gitconnect-invert.png",
+  "title": "GitConnect",
+  "link": "https://gitconnect.dev",
+  "githubLink": "https://github.com/Dannydoesdev/GitConnect-v2",
+  "internalLink": "/gitconnectv2",
+  "type": "Solo Project",
+  "typeStyle": true,
+  "description": "This is an ongoing solo rebuild & refactor of a team project (v1) to modernise the stack. GitConnect is a portfolio creation, sharing, and discovery platform for developers. Think Dribbble or Behance for Engineers. Using integration with GitHub API, includes a simple and seamless portfolio creation experience. Firebase used for OAuth, storage & NoSQL database // Next.JS + React used for backend management & frontend components",
+  "badges": [
+    {
+      "emoji": "😱",
+      "label": "React"
+    },
+    {
+      "emoji": "⏭️",
+      "label": "Next.JS"
+    },
+    {
+      "emoji": "🔥",
+      "label": "Firebase"
+    },
+    {
+      "emoji": "🙅",
+      "label": "NoSQL"
+    },
+    {
+      "emoji": "👾",
+      "label": "Github API"
+    }
+  ]
+},
+  {
   "image": "/img/cards/gitconnect.jpg",
   "title": "GitConnect (V1)",
   "link": "https://git--connect.herokuapp.com/",
@@ -23,37 +55,6 @@ export const projects = [{
     {
       "emoji": "🥾",
       "label": "Bootstrap"
-    },
-    {
-      "emoji": "👾",
-      "label": "Github API"
-    }
-  ]
-},{
-  "image": "/img/cards/gitconnect-invert.png",
-  "title": "GitConnect (V2)",
-  "link": "https://git-connect-v2.vercel.app/",
-  "githubLink": "https://github.com/Dannydoesdev/GitConnect-v2",
-  "internalLink": "/gitconnectv2",
-  "type": "Solo Project",
-  "typeStyle": true,
-  "description": "This is an ongoing solo rebuild & refactor of a team project (v1) to modernise the stack. GitConnect is a portfolio creation, sharing, and discovery platform for developers. Think Dribbble or Behance for Engineers. Using integration with GitHub API, includes a simple and seamless portfolio creation experience. Firebase used for OAuth, storage & NoSQL database // Next.JS + React used for backend management & frontend components",
-  "badges": [
-    {
-      "emoji": "😱",
-      "label": "React"
-    },
-    {
-      "emoji": "⏭️",
-      "label": "Next.JS"
-    },
-    {
-      "emoji": "🔥",
-      "label": "Firebase"
-    },
-    {
-      "emoji": "🙅",
-      "label": "NoSQL"
     },
     {
       "emoji": "👾",

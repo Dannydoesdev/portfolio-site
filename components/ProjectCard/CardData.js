@@ -1,43 +1,12 @@
-export const cards = [{
-  "image": "/img/cards/gitconnect.jpg",
-  "title": "GitConnect (V1)",
-  "link": "https://git--connect.herokuapp.com/",
-  "githubLink": "https://github.com/Dannydoesdev/GitConnect",
-  "internalLink": "/projects/gitconnect",
-  "type": "Team Project",
-  "typeStyle": false,
-  "description": "GitConnect is the portfolio hub for developers - connect with GitHub, showcase your projects, share with recruiters, and be inspired by other developers. A team project with 2 other developers - utilising Github API to easily import projects. This is the original & (currently) most feature-complete version of the GitConnect platform, I really like this concept and have been rebuilding & improving this project solo in Next.JS & React.",
-  "badges": [
-    {
-      "emoji": "🧱",
-      "label": "Node"
-    },
-    {
-      "emoji": "🏃‍♂️",
-      "label": "Express.JS"
-    },
-    {
-      "emoji": "👩‍👧",
-      "label": "SQL"
-    },
-    {
-      "emoji": "🥾",
-      "label": "Bootstrap"
-    },
-    {
-      "emoji": "👾",
-      "label": "Github API"
-    }
-  ]
-},{
+export const cards = [  {
   "image": "/img/cards/gitconnect-invert.png",
-  "title": "GitConnect (V2)",
-  "link": "https://git-connect-v2.vercel.app/",
+  "title": "GitConnect",
+  "link": "https://gitconnect.dev/",
   "githubLink": "https://github.com/Dannydoesdev/GitConnect-v2",
   "internalLink": "/projects/gitconnectv2",
   "type": "Solo Project",
   "typeStyle": true,
-  "description": "This is an ongoing solo rebuild & refactor of a team project (v1) to modernise the stack. GitConnect is a portfolio creation, sharing, and discovery platform for developers. Think Dribbble or Behance for Engineers. Using integration with GitHub API, includes a simple and seamless portfolio creation experience. Firebase used for OAuth, storage & NoSQL database // Next.JS + React used for backend management & frontend components",
+  "description": "Software engineers and developers create awesome, inspiring projects that are only seen when they are looking for jobs or when they get popular/go viral.\n GitConnect is Dribbble (or Behance) for devs - join with Github, add projects in 2 clicks & then use our tools to craft your story - inspire and be inspired. \n Built with Github OAuth, Next.js, Typescript, React and Firebase",
   "badges": [
     {
       "emoji": "😱",
@@ -61,6 +30,38 @@ export const cards = [{
     }
   ]
 },
+  {
+  "image": "/img/cards/gitconnect.jpg",
+  "title": "GitConnect (V1)",
+  "link": "https://git--connect.herokuapp.com/",
+  "githubLink": "https://github.com/Dannydoesdev/GitConnect",
+  "internalLink": "/projects/gitconnect",
+  "type": "Team Project",
+  "typeStyle": false,
+  "description": "GitConnect v1 served as the foundation for the concepts used in V2. Originally a team project with 2 other developers during my time at GA. GitConnect is the portfolio hub for developers - connect with GitHub, showcase your projects, share with recruiters, and be inspired by other developers.",
+  "badges": [
+    {
+      "emoji": "🧱",
+      "label": "Node"
+    },
+    {
+      "emoji": "🏃‍♂️",
+      "label": "Express.JS"
+    },
+    {
+      "emoji": "👩‍👧",
+      "label": "SQL"
+    },
+    {
+      "emoji": "🥾",
+      "label": "Bootstrap"
+    },
+    {
+      "emoji": "👾",
+      "label": "Github API"
+    }
+  ]
+},
 {
   "image": "/img/cards/flyre.jpeg",
   "title": "Flyre",
@@ -69,7 +70,7 @@ export const cards = [{
   "internalLink": "/projects/flyre",
   "type": "Solo Project",
   "typeStyle": true,
-    "description": "Flyre - connecting local artists with local events. A tongue-in-cheek name, based on the 'fyre' app that the Fyre festival was promoting.Connect DJs with organisers. A good challenge in learning how to use Python with flask - as well as integrating an external API.",
+    "description": "Flyre was a platform concept that connects artists and event organisers. It provided a solid learning experience in building full-stack applications outside the Javascript ecosystem, using Python and Flask.",
   "badges": [
     {
       "emoji": "🐍",
@@ -95,13 +96,13 @@ export const cards = [{
   },
   {
     "image": "/img/cards/simpdle2.png",
-    "title": "Simpdle",
+    "title": "Weirdle",
     "link": "https://dannydoesdev.github.io/wordle/",
     "githubLink": "https://github.com/Dannydoesdev/wordle",
     "internalLink": "/projects/simpdle",
     "type": "Solo Project",
     "typeStyle": true,
-      "description": "Simpdle - my weird and wild Wordle clone.",
+      "description": "Wordle... but weird. Aka how much is too much box shadow?",
     "badges": [
       {
         "emoji": "⚒",

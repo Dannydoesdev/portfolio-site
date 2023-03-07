@@ -14,14 +14,15 @@ export function ComplexGrid() {
   return (
     <Container my="md">
       <SimpleGrid cols={3} spacing="md" breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
-        <Stack align='center'>
+        {/* <Stack align='center'> */}
+        <Stack className={classes.stack}>
           <Title align='center' order={2} className={classes.highlight}>
             Front-end
           </Title>
            {/* <Space h='sm' /> */}
-          <SimpleGrid cols={2} p={3} className={classes.container} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
+          {/* <SimpleGrid cols={2} p={3} className={classes.container} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}> */}
            
-          <Stack spacing={0}>
+          <Stack spacing={0} p={3} className={classes.container}>
                 <Image
                   height={70}
                   fit="contain"
@@ -32,34 +33,29 @@ export function ComplexGrid() {
                   fit="contain"
                   src='https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg'
                 />
+              {/* </Stack>
+            <Stack spacing={0}> */}
                 <Image
-                  height={70}
-                  fit="contain"
-                  src='https://www.vectorlogo.zone/logos/python/python-ar21.svg'
-                />
-              </Stack>
-            <Stack spacing={0}>
-                <Image
-                  height={70}
+                  height={65}
                   fit="contain"
                   src='https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg'
                 />
                 <Image
-                  height={70}
+                  height={60}
                   fit="contain"
                   src='https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg'
                   // className={classes.img}
                 />
-                <Image
+                {/* <Image
                   height={70}
                   fit="contain"
-                  // src='https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg'
+                  
                   src='https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg'
-                />
+                /> */}
             </Stack>
             {/* https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg */}
          
-          </SimpleGrid>
+          {/* </SimpleGrid> */}
         </Stack>
         <Stack className={classes.stack}>
           <Title align='center' order={2} className={classes.highlight}>
@@ -68,7 +64,7 @@ export function ComplexGrid() {
           {/* <Space h='sm' /> */}
               <Stack spacing={0} p={3} className={classes.container}>
                 <Image
-                  height={70}
+                  height={60}
                   fit="contain"
                   src='https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg'
                 />
@@ -82,8 +78,14 @@ export function ComplexGrid() {
                   height={70}
                   fit="contain"
                   src='https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg'
+            />
+              <Image
+                  height={70}
+                  fit="contain"
+                  src='https://www.vectorlogo.zone/logos/python/python-ar21.svg'
                 />
-              </Stack>
+          </Stack>
+          
         </Stack>
         {/* https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg */}
         {/* https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg */}
@@ -103,7 +105,15 @@ export function ComplexGrid() {
                   fit="contain"
                   src='https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg'
                   // className={classes.img}
-                />
+            />
+             {/* <Image
+                  height={70}
+                  fit="contain"
+                  src='https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg'
+                  // className={classes.img}
+            />
+             */}
+            
                 <Image
                   height={70}
                   fit="contain"
