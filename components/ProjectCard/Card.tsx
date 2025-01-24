@@ -4,8 +4,17 @@ import useStyles from './Card.styles';
 import Link from 'next/link';
 import { NextLink } from '@mantine/next';
 
-
-export function ProjectCard({ image, title, description, type, githubLink, typeStyle, badges, internalLink, link }: BadgeCardProps) {
+export function ProjectCard({
+  image,
+  title,
+  description,
+  type,
+  githubLink,
+  typeStyle,
+  badges,
+  internalLink,
+  link,
+}: BadgeCardProps) {
   const { classes, theme } = useStyles();
 
   const features = badges.map((badge) => (
@@ -19,20 +28,21 @@ export function ProjectCard({ image, title, description, type, githubLink, typeS
   ));
 
   return (
-    
     <Card withBorder radius="md" p="md" className={classes.card}>
       <Link href={internalLink} passHref>
-        <Card.Section component='a'> 
-            <Image  src={image} alt={title} height={180} />
+        <Card.Section>
+          <Image src={image} alt={title} height={180} />
         </Card.Section>
       </Link>
-      
+
       <Card.Section className={classes.section} mt="md">
         <Group position="apart">
           <Text size="lg" weight={500}>
             {title}
           </Text>
-          <Badge className={typeStyle ? classes.badgeSolo : ''} size="sm">{type}</Badge>
+          <Badge className={typeStyle ? classes.badgeSolo : ''} size="sm">
+            {type}
+          </Badge>
         </Group>
         <Text size="sm" mt="xs">
           {description}
@@ -49,13 +59,18 @@ export function ProjectCard({ image, title, description, type, githubLink, typeS
       </Card.Section>
 
       <Group mt="xs">
-      <Link href={githubLink} passHref>
-          <Button radius="md" target='_blank' component='a' className={classes.button} style={{ flex: 1 }}>
+        <Link href={githubLink} passHref target="_blank">
+          <Button radius="md" className={classes.button} style={{ flex: 1 }}>
             On Github
           </Button>
         </Link>
-        <Link href={link} passHref>
-          <Button radius="md" target='_blank' component='a' className={classes.button} style={{ flex: 1 }}>
+
+        <Link href={link} target="_blank" passHref>
+          <Button
+            radius="md"
+            className={classes.button}
+            style={{ flex: 1 }}
+          >
             Live site
           </Button>
         </Link>
@@ -63,7 +78,7 @@ export function ProjectCard({ image, title, description, type, githubLink, typeS
           <IconHeart size={18} className={classes.like} stroke={1.5} />
         </ActionIcon> */}
       </Group>
-      </Card>
+    </Card>
   );
 }
 

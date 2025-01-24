@@ -1,7 +1,7 @@
 export const cards = [  {
   "image": "/img/cards/gitconnect-invert.png",
   "title": "GitConnect",
-  "link": "https://gitconnect.dev/",
+  "link": "https://gitconnect.dev/landing",
   "githubLink": "https://github.com/Dannydoesdev/GitConnect-v2",
   "internalLink": "/projects/gitconnectv2",
   "type": "Solo Project",
