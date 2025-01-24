@@ -6,14 +6,6 @@ export function SwitchToggle() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
   const theme = useMantineTheme();
 
-//   const useStyles = createStyles(() => ({
-//     onLabel: {},
-//     offLabel: {},
-//     // footer: {},
-//   }));
-
-// type ComponentStylesNames = Selectors<typeof useStyles>;
-// // -> 'body' | 'header' | 'footer'
 
   return (
     <Group position="center" my={30}>

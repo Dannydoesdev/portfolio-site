@@ -22,10 +22,8 @@ export function HeroProjectDynamic({ image, title, description, type, githubLink
         <Text className={classes.description} size="xl" mt="xl">
           {description}
         </Text>
-        <Link href={link} passHref>
+        <Link href={link} target='_blank' passHref>
           <Button
-            component="a"
-            target='_blank'
             size='xl'
             radius='xl'
             className={classes.control}
