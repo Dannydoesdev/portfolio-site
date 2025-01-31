@@ -1,8 +1,7 @@
-import { IconHeart } from '@tabler/icons';
 import { Card, Image, Text, Group, Badge, Button, ActionIcon } from '@mantine/core';
 import useStyles from './Card.styles';
 import Link from 'next/link';
-import { NextLink } from '@mantine/next';
+
 
 export function ProjectCard({
   image,

@@ -1,13 +1,9 @@
-import { createStyles } from '@mantine/core';
-
-// border-radius: 180px;
-// background-color: rgb(46 0 121 / 66%);
-// #2e0079a8
+import { createStyles, rem } from '@mantine/core';
 
 export default createStyles((theme) => ({
   wrapper: {
-    paddingTop: 80,
-    paddingBottom: 50,
+    paddingTop: rem(80),
+    paddingBottom: rem(50),
   },
 
   item: {
@@ -17,18 +13,10 @@ export default createStyles((theme) => ({
   itemIcon: {
     padding: theme.spacing.xs,
     marginRight: theme.spacing.md,
-    // backgroundColor: theme.colorScheme === 'dark' ? '#2d1259b0' : '#2b007969',
-    // #2d1259b0
-    // 2e0079a8
-    // backgroundColor: '#2e0079a8',
-    // backgroundColor: 'theme.colors.grape[9]',
-    // backgroundColor: theme.colors.grape[9],
-    // backgroundColor={theme.colors.grape[9]}
-    // borderRadius: '120px',
   },
 
   itemTitle: {
-    marginBottom: theme.spacing.xs / 2,
+    marginBottom: `calc(${theme.spacing.xs} / 2)`,
   },
 
   supTitle: {
@@ -52,9 +40,8 @@ export default createStyles((theme) => ({
   },
 
   highlight: {
-    backgroundColor: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).
-      background,
-    padding: 5,
+    backgroundColor: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).background,
+    padding: rem(5),
     paddingTop: 0,
     borderRadius: theme.radius.sm,
     display: 'inline-block',

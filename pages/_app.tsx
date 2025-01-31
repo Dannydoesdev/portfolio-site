@@ -4,7 +4,7 @@ import { AppProps } from 'next/app';
 import { getCookie, setCookie } from 'cookies-next';
 import Head from 'next/head';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
-import { NotificationsProvider } from '@mantine/notifications';
+// import { Notifications } from '@mantine/notifications';
 import { CustomFonts } from '../components/CustomFonts/CustomFonts';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -42,10 +42,9 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
           withGlobalStyles
           withNormalizeCSS>
           <CustomFonts />
-          <NotificationsProvider>
+          {/* <Notifications /> */}
             <Component {...pageProps} />
             <Analytics />
-          </NotificationsProvider>
         </MantineProvider>
       </ColorSchemeProvider>   
     </>
