@@ -2,8 +2,8 @@ import { createStyles, rem } from '@mantine/core';
 
 export default createStyles((theme) => ({
   wrapper: {
-    paddingTop: rem(80),
-    paddingBottom: rem(50),
+    paddingTop: rem(40),
+    paddingBottom: rem(30),
   },
 
   item: {
