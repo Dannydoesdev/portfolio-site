@@ -28,11 +28,11 @@ export function ProjectCard({
 
   return (
     <Card withBorder radius="md" p="md" className={classes.card}>
-      <Link href={internalLink} passHref>
+      {/* <Link href={internalLink} passHref> */}
         <Card.Section>
           <Image src={image} alt={title} height={180} />
         </Card.Section>
-      </Link>
+      {/* </Link> */}
 
       <Card.Section className={classes.section} mt="md">
         <Group position="apart">
@@ -58,21 +58,26 @@ export function ProjectCard({
       </Card.Section>
 
       <Group mt="xs">
-        <Link href={githubLink} passHref target="_blank">
+        {githubLink ?
+          <Link href={githubLink} passHref target="_blank">
           <Button radius="md" className={classes.button} style={{ flex: 1 }}>
             On Github
           </Button>
+          </Link>
+          : <></>
+        }
+        
+        {link ? <Link href={link} target="_blank" passHref>
+            <Button
+              radius="md"
+              className={classes.button}
+              style={{ flex: 1 }}
+            >
+              Live site
+            </Button>
         </Link>
-
-        <Link href={link} target="_blank" passHref>
-          <Button
-            radius="md"
-            className={classes.button}
-            style={{ flex: 1 }}
-          >
-            Live site
-          </Button>
-        </Link>
+           : <></>
+        }
         {/* <ActionIcon variant="default" radius="md" size={36}>
           <IconHeart size={18} className={classes.like} stroke={1.5} />
         </ActionIcon> */}
@@ -84,8 +89,8 @@ export function ProjectCard({
 interface BadgeCardProps {
   image: string;
   title: string;
-  link: string;
-  githubLink: string;
+  link?: string;
+  githubLink?: string;
   internalLink: string;
   type: string;
   typeStyle: boolean; // boolean to apply the 'team' style vs 'solo' style to label

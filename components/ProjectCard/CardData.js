@@ -2,7 +2,7 @@ export const cards = [  {
   "image": "/img/cards/gitconnect-invert.png",
   "title": "GitConnect",
   "link": "https://gitconnect.dev/landing",
-  "githubLink": "https://github.com/Dannydoesdev/GitConnect-v2",
+  // "githubLink": "https://github.com/Dannydoesdev/GitConnect-v2",
   "internalLink": "/projects/gitconnectv2",
   "type": "Solo Project",
   "typeStyle": true,
@@ -33,7 +33,7 @@ export const cards = [  {
   {
   "image": "/img/cards/gitconnect.jpg",
   "title": "GitConnect (V1)",
-  "link": "https://git--connect.herokuapp.com/",
+  // "link": "https://git--connect.herokuapp.com/",
   "githubLink": "https://github.com/Dannydoesdev/GitConnect",
   "internalLink": "/projects/gitconnect",
   "type": "Team Project",
@@ -65,7 +65,7 @@ export const cards = [  {
 {
   "image": "/img/cards/flyre.jpeg",
   "title": "Flyre",
-  "link": "https://morning-atoll-11830.herokuapp.com/",
+  // "link": "https://morning-atoll-11830.herokuapp.com/",
   "githubLink": "https://github.com/Dannydoesdev/flyre",
   "internalLink": "/projects/flyre",
   "type": "Solo Project",
