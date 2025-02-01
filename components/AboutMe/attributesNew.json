@@ -1,0 +1,46 @@
+{
+  "title": "Features with image icons",
+  "category": "features",
+  "responsive": true,
+  "withColor": true,
+  "dependencies": [
+    "/core/theme-icon/",
+    "/core/title/",
+    "/core/text/",
+    "/core/container/",
+    "/core/simple-grid/",
+    "/core/image/",
+    "https://www.flaticon.com/"
+  ],
+  "props": {
+    "supTitle": "Danny's skillset",
+    "description": "Studying and honing his skills across the spectrum of technical understanding and product development - his transferable experience spans a diverse range of stages and cultures;",
+    "additional": "He also rarely speaks in third person (promise).",
+    "data": [
+      {
+        "image": "designer",
+        "title": "Designer",
+        "description": "Completing 400 hours of hands-on UX training & working as a UX consultant provides the skills to discover, understand and empathise with user problems - then dream up & test the best solutions to solve them."
+      },
+      {
+        "image": "coder",
+        "title": "Developer",
+        "description": "Development brings it all together - building solutions with quality, usability and the customer top of mind. I've built my own startup, completed hundreds of hours of practical engineering training, and gained experience across the full-stack."
+      },
+      {
+        "image": "pm",
+        "title": "Deliverer",
+        "description": "4 years in Product Management means I understand business requirements to scope, prioritise and deliver ideas. I've led a team of 10 engineers to deliver apps with 4.5+ star ratings and know how to work in a high-performing Product team."
+      },
+      {
+        "image": "support",
+        "title": "Debugger",
+        "description": "A decade in IT Consulting & Sysadmin provides an underlying ability to approach and solve complex technical problems in logical steps. This deep understanding of technology helps me adopt the best tools for a given task & produce scalable solutions."
+      }
+    ]
+  },
+  "canvas": {
+    "center": false
+  }
+}
+

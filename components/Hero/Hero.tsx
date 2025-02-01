@@ -24,9 +24,8 @@ export function HeroImage() {
             </Title>
 
             <Text className={classes.description} mt={30}>
-              A versatile IT expert with more than a decade of experience across the product & tech industry, and a passion for impact-driven initiatives.
-              
-
+              A versatile Product Development expert with more than 15 years of experience across the product & tech industry. I like to build products that look delight users and look great.
+            
             </Text>
             <Link 
               href="https://linktr.ee/danieltmcgee" 

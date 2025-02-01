@@ -46,12 +46,12 @@ export function AboutMe({ supTitle, description, data }: FeaturesImagesProps) {
           <Space h='xs' />
           An IT Consultant in the Berlin Startup scene, Network Manager in the public service, a UX Designer in a not-for-profit, and Product Manager in a disability sector scale-up;
           <Space h='xs' />
-          Studying and honing his skills across the spectrum of technical affluency and product development - his transferable experience spans a diverse range of stages and cultures.
+          Studying and honing his skills across the spectrum of product development and technical understanding - his transferable experience spans a diverse range of stages and cultures.
           <Space h='xs' />
           ...He also rarely speaks in third person (promise).
         </Text>
       </Container>
-
+    <Space h='xs' />
       <SimpleGrid
         cols={2}
         spacing={80}
