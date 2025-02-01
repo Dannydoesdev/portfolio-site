@@ -66,7 +66,7 @@ export default createStyles((theme) => ({
   description: {
     color: theme.white,
     opacity: 0.75,
-    maxWidth: rem(440),
+    maxWidth: rem(455),
 
     [theme.fn.smallerThan('md')]: {
       maxWidth: '100%',
