@@ -52,7 +52,7 @@ export default createStyles((theme) => ({
 
   name: {
     lineHeight: 1.05,
-    fontSize: rem(150),
+    fontSize: rem(160),
     backgroundImage: 'linear-gradient(45deg, #460376 0% 0%, #8700edf7 100% 100%)',
     marginLeft: rem(-10),
 
@@ -66,7 +66,7 @@ export default createStyles((theme) => ({
   description: {
     color: theme.white,
     opacity: 0.75,
-    maxWidth: rem(455),
+    maxWidth: rem(480),
 
     [theme.fn.smallerThan('md')]: {
       maxWidth: '100%',
